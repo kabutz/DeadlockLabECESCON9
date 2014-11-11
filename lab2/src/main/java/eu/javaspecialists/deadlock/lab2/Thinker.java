@@ -23,9 +23,10 @@ import java.util.concurrent.*;
  *
  * @author Heinz Kabutz
  */
-public class Thinker implements Callable<String> {
+public class Thinker implements Callable<ThinkerStatus> {
     private final int id;
     private final Krasi left, right;
+    private int drinks = 0;
 
     public Thinker(int id, Krasi left, Krasi right) {
         this.id = id;
@@ -33,12 +34,13 @@ public class Thinker implements Callable<String> {
         this.right = right;
     }
 
-    public String call() throws Exception {
+    public ThinkerStatus call() throws Exception {
         for (int i = 0; i < 1000; i++) {
             drink();
             think();
         }
-        return "Java is fun";
+        return drinks == 1000 ? ThinkerStatus.HAPPY_THINKER :
+                ThinkerStatus.UNHAPPY_THINKER;
     }
 
     public void drink() {
@@ -46,13 +48,21 @@ public class Thinker implements Callable<String> {
         try {
             right.lock();
             try {
-                System.out.printf("(%d) Drinking%n", id);
+                drinking();
             } finally {
                 right.unlock();
             }
         } finally {
             left.unlock();
         }
+    }
+
+    private void drinking() {
+        if (!left.isHeldByCurrentThread() || !right.isHeldByCurrentThread()) {
+            throw new IllegalMonitorStateException("Not holding both locks");
+        }
+        System.out.printf("(%d) Drinking%n", id);
+        drinks++;
     }
 
     public void think() {

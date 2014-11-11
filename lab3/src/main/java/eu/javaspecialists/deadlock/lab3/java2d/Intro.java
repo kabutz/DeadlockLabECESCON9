@@ -1700,5 +1700,6 @@ public class Intro extends JPanel {
 
     static {
         System.setOut(null); // we don't want output
+        System.setErr(null); // none whatsoever - bwahahaha
     }
 } // End Intro class

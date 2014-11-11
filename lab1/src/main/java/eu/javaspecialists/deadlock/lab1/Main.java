@@ -1,5 +1,7 @@
 package eu.javaspecialists.deadlock.lab1;
 
+import eu.javaspecialists.deadlock.util.*;
+
 /**
  * Launcher to test whether the symposium ends in a deadlock.  You might need to
  * run it a few times on your machine before the deadlock surfaces.
@@ -11,15 +13,23 @@ package eu.javaspecialists.deadlock.lab1;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Symposium symposium = new Symposium(5);
-        symposium.run();
         ThinkerStatus status = symposium.run();
-        switch(status) {
-            case HAPPY_THINKER:
-                System.out.println("No deadlock detected");
-                break;
-            case UNHAPPY_THINKER:
-                System.err.println("Probably a deadlock (or incorrect code)");
-                break;
+        if (status == ThinkerStatus.UNHAPPY_THINKER) {
+            System.err.println("Probably a deadlock (or incorrect code)");
+            return;
         }
+
+        DeadlockTester tester = new DeadlockTester();
+        tester.checkThatCodeDoesNotDeadlock(new Runnable() {
+            public void run() {
+                try {
+                    new Symposium(5).run();
+                } catch (InterruptedException e) {
+                    return;
+                }
+            }
+        });
+
+        System.out.println("No deadlock detected");
     }
 }

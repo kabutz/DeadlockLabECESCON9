@@ -10,4 +10,4 @@ attention to the threads and what state they are in.
 
 3. Verify the deadlock is gone.
 
-Good luck!  You have 15 minutes to solve this lab.
+Good luck!  You have 20 minutes to solve this lab.

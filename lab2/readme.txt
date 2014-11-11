@@ -28,4 +28,4 @@ Lock.lock() method, rather than synchronized.
    can also try adding a random sleep to reduce the number of retries, but keep
    in mind that your overall time taken to run the test might increase.
 
-Good luck!  You have 15 minutes to solve this lab.
+Good luck!  You have 20 minutes to solve this lab.

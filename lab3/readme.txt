@@ -16,4 +16,4 @@ jams up after using it for a relatively short while.
 
 4. Verify that the program now does not jam up anymore.
 
-Good luck!  You have 15 minutes to solve this lab.
+Good luck!  You have 20 minutes to solve this lab.

@@ -29,23 +29,29 @@ public class Symposium {
         }
     }
 
-    public void run() throws InterruptedException {
+    public ThinkerStatus run() throws InterruptedException {
         // do this after we created the symposium, so that we do not
         // let the reference to the Symposium escape.
         ExecutorService exec = Executors.newCachedThreadPool();
-        CompletionService<String> results =
-                new ExecutorCompletionService<String>(exec);
+        CompletionService<ThinkerStatus> results =
+                new ExecutorCompletionService<ThinkerStatus>(exec);
         for (Thinker thinker : thinkers) {
             results.submit(thinker);
         }
+        ThinkerStatus result = ThinkerStatus.HAPPY_THINKER;
         System.out.println("Waiting for results");
-        for ( Thinker thinker : thinkers) {
+        for (Thinker thinker : thinkers) {
             try {
-                System.out.println(results.take().get());
+                ThinkerStatus status = results.take().get();
+                System.out.println(status);
+                if (status == ThinkerStatus.UNHAPPY_THINKER) {
+                    result = ThinkerStatus.UNHAPPY_THINKER;
+                }
             } catch (ExecutionException e) {
                 e.getCause().printStackTrace();
             }
         }
         exec.shutdown();
+        return result;
     }
 }

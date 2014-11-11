@@ -1,5 +1,7 @@
 package eu.javaspecialists.deadlock.lab1solution;
 
+import eu.javaspecialists.deadlock.lab1.*;
+
 import java.util.concurrent.*;
 
 /**
@@ -12,32 +14,40 @@ import java.util.concurrent.*;
  *
  * @author Heinz Kabutz
  */
-public class Thinker implements Callable<String> {
+public class Thinker implements Callable<ThinkerStatus> {
     private final int id;
     private final Krasi bigger, smaller;
+    private int drinks = 0;
 
     public Thinker(int id, Krasi left, Krasi right) {
         this.id = id;
         this.bigger = left.compareTo(right) > 0 ? left : right;
-        this.smaller = right == bigger ? left : right;
-        System.out.println("bigger = " + bigger);
-        System.out.println("smaller = " + smaller);
+        this.smaller = bigger == left ? right : left;
     }
 
-    public String call() throws Exception {
+    public ThinkerStatus call() throws Exception {
         for (int i = 0; i < 1000; i++) {
             drink();
             think();
         }
-        return "Java is fun";
+        return drinks == 1000 ? ThinkerStatus.HAPPY_THINKER :
+                ThinkerStatus.UNHAPPY_THINKER;
     }
 
     public void drink() {
         synchronized (bigger) {
             synchronized (smaller) {
-                System.out.printf("(%d) Drinking%n", id);
+                drinking();
             }
         }
+    }
+
+    private void drinking() {
+        if (!Thread.holdsLock(bigger) || !Thread.holdsLock(smaller)) {
+            throw new IllegalMonitorStateException("Not holding both locks");
+        }
+        System.out.printf("(%d) Drinking%n", id);
+        drinks++;
     }
 
     public void think() {

@@ -1,6 +1,9 @@
 package eu.javaspecialists.deadlock.lab2solution;
 
+import eu.javaspecialists.deadlock.lab2.*;
+
 import java.util.concurrent.*;
+import java.util.concurrent.locks.*;
 
 /**
  * Our philosopher always first locks left, then right.  If all of the thinkers
@@ -15,9 +18,10 @@ import java.util.concurrent.*;
  *
  * @author Heinz Kabutz
  */
-public class Thinker implements Callable<String> {
+public class Thinker implements Callable<ThinkerStatus> {
     private final int id;
     private final Krasi left, right;
+    private int drinks = 0;
 
     public Thinker(int id, Krasi left, Krasi right) {
         this.id = id;
@@ -25,12 +29,13 @@ public class Thinker implements Callable<String> {
         this.right = right;
     }
 
-    public String call() throws Exception {
+    public ThinkerStatus call() throws Exception {
         for (int i = 0; i < 1000; i++) {
             drink();
             think();
         }
-        return "Java is fun";
+        return drinks == 1000 ? ThinkerStatus.HAPPY_THINKER :
+                ThinkerStatus.UNHAPPY_THINKER;
     }
 
     public void drink() {
@@ -39,7 +44,7 @@ public class Thinker implements Callable<String> {
             try {
                 if (right.tryLock()) {
                     try {
-                        System.out.printf("(%d) Drinking%n", id);
+                        drinking();
                         return; // remember to return after a good drink
                     } finally {
                         right.unlock();
@@ -50,7 +55,16 @@ public class Thinker implements Callable<String> {
             }
             // Possibly add a short random sleep to avoid a livelock, but only
             // do this after you have unlocked both locks.
+            LockSupport.parkNanos(System.nanoTime() & 0xffff);
         }
+    }
+
+    private void drinking() {
+        if (!left.isHeldByCurrentThread() || !right.isHeldByCurrentThread()) {
+            throw new IllegalMonitorStateException("Not holding both locks");
+        }
+        System.out.printf("(%d) Drinking%n", id);
+        drinks++;
     }
 
     public void think() {
