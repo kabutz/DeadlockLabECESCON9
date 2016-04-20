@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.*;
  * "Krasi" means wine in Greek, which is where the philosophers used to live
  * many thousands of years ago.  We use the Krasi objects as locks to
  * synchronize on.
- *
+ * <p>
  * In our solution, we define a cupNumber inside the Krasi class, which we use
  * to sort on.  Note that the Integer.compare() method is a new Java 7 method.
  *

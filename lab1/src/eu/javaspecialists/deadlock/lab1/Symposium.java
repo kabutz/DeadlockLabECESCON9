@@ -7,7 +7,7 @@ import java.util.concurrent.*;
  * between them.  We then run them in a cached thread pool.  Unfortunately when
  * all the Thinker instances try to drink at the same time, they cause a
  * deadlock.
- *
+ * <p>
  * DO NOT CHANGE THIS CODE!
  *
  * @author Heinz Kabutz
@@ -34,7 +34,7 @@ public class Symposium {
         // let the reference to the Symposium escape.
         ExecutorService exec = Executors.newCachedThreadPool();
         CompletionService<ThinkerStatus> results =
-                new ExecutorCompletionService<ThinkerStatus>(exec);
+            new ExecutorCompletionService<ThinkerStatus>(exec);
         for (Thinker thinker : thinkers) {
             results.submit(thinker);
         }

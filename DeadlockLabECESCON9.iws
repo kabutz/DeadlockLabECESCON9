@@ -2,20 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db1df834-1e1f-4dc8-9edb-0f53c8f0c804" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeadlockLabECESCON9.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeadlockLabECESCON9.iws" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/lab1/Krasi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/lab1/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/lab1/Symposium.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/lab1/Thinker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/lab1/ThinkerStatus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/lab1solution/Krasi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/lab1solution/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/lab1solution/Symposium.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/lab1solution/Thinker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/util/DeadlockError.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lab1/src/main/java/eu/javaspecialists/deadlock/util/DeadlockTester.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/ACimages.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/ACimages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/ACrules.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/ACrules.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/AllFonts.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/AllFonts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/AnimatingControlsSurface.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/AnimatingControlsSurface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/AnimatingSurface.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/AnimatingSurface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/Append.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/Append.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Arcs.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Arcs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Areas.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Areas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/AttributedStr.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/AttributedStr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/Balls.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/Balls.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/BezierAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/BezierAnim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/BezierScroller.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/BezierScroller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BigDecimal.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BigDecimal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BigInteger.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BigInteger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BitSieve.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BitSieve.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/BullsEye.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/BullsEye.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Caps.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Caps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/ClipAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/ClipAnim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CloningFeature.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CloningFeature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/ColorConvert.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/ColorConvert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/ControlsSurface.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/ControlsSurface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/CurveQuadTo.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/CurveQuadTo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Curves.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Curves.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CustomControls.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CustomControls.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CustomControlsContext.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CustomControlsContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Dash.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Dash.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DeadlockLabECESCON9.iws" afterPath="$PROJECT_DIR$/DeadlockLabECESCON9.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/util/DeadlockTester.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/util/DeadlockTester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/util/DeadlockTester.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/util/DeadlockTester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoFonts.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoFonts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoGroup.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoGroup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoImages.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoImages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoPanel.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/DukeAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/DukeAnim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Ellipses.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Ellipses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/FadeAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/FadeAnim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/Fibonacci.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/Fibonacci.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/FibonacciTest.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/FibonacciTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/FillStroke.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/FillStroke.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/GlobalControls.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/GlobalControls.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/GlobalPanel.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/GlobalPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/GradAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/GradAnim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/Gradient.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/Gradient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Greeter.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Greeter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Highlighting.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Highlighting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/ImageOps.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/ImageOps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Intersection.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Intersection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Intro.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Intro.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/JPEGFlip.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/JPEGFlip.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/Java2Demo.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/Java2Demo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Java2DemoApplet.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Java2DemoApplet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Joins.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Joins.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Krasi.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Krasi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Krasi.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Krasi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Krasi.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Krasi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Krasi.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Krasi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/LineAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/LineAnim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Main.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Main.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Main.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Main.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/MathContext.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/MathContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/MemoryMonitor.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/MemoryMonitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/util/MonitorUtils.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/util/MonitorUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/MutableBigInteger.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/MutableBigInteger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Outline.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Outline.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/PerformanceMonitor.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/PerformanceMonitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/Rotate.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/Rotate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/Rotator3D.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/Rotator3D.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/RoundingMode.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/RoundingMode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/RunWindow.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/RunWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/SelectTx.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/SelectTx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/SignedMutableBigInteger.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/SignedMutableBigInteger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/Stars3D.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/Stars3D.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Surface.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Surface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Symposium.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Symposium.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Symposium.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Symposium.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Symposium.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Symposium.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Symposium.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Symposium.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Text.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Text.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/Texture.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/Texture.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/TextureAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/TextureAnim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/TextureChooser.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/TextureChooser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Thinker.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Thinker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Thinker.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Thinker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Thinker.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Thinker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Thinker.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Thinker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Tools.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Tools.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/TransformAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/TransformAnim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Tree.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Tree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/WarpImage.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/WarpImage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/WindingRule.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/WindingRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/lab1.iml" afterPath="$PROJECT_DIR$/lab1/lab1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/lab2.iml" afterPath="$PROJECT_DIR$/lab2/lab2.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab3/lab3.iml" afterPath="$PROJECT_DIR$/lab3/lab3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/lab4.iml" afterPath="$PROJECT_DIR$/lab4/lab4.iml" />
     </list>
     <ignored path="DeadlockLabDevoxx2014.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,105 +126,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Java2Demo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab3/src/eu/javaspecialists/deadlock/lab3/Java2Demo.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#21628#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lab1.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab1/lab1.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lab2.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/lab2.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lab5.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/lab5.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/FibonacciTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeadlockLabECESCON9.ipr" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DeadlockLabECESCON9.ipr">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/Fibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lab3.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab3/lab3.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="34" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,6 +177,7 @@
         <option value="$PROJECT_DIR$/lab2/readme.txt" />
         <option value="$PROJECT_DIR$/lab4/readme.txt" />
         <option value="$PROJECT_DIR$/lab3/.gitignore" />
+        <option value="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Main.java" />
       </list>
     </option>
   </component>
@@ -268,6 +259,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeadlockLabECESCON9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeadlockLabECESCON9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deadlock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DeadlockLabECESCON9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deadlock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -300,6 +341,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="editor.config.accepted" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -318,119 +360,7 @@
       <recent name="eu.javaspecialists.deadlock.lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FibonacciTest.testSimpleValues">
-    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="eu.javaspecialists.deadlock.lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="eu.javaspecialists.deadlock.lab2.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lab2" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Java2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="eu.javaspecialists.deadlock.lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="eu.javaspecialists.deadlock.lab3.Java2Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lab3" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Java2Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="eu.javaspecialists.deadlock.lab4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="eu.javaspecialists.deadlock.lab4.Java2Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lab4" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="eu.javaspecialists.performance.lab5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="lab5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="eu.javaspecialists.performance.lab5" />
-      <option name="MAIN_CLASS_NAME" value="eu.javaspecialists.performance.lab5.FibonacciTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FibonacciTest.testSimpleValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="eu.javaspecialists.performance.lab5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="lab5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="eu.javaspecialists.performance.lab5" />
-      <option name="MAIN_CLASS_NAME" value="eu.javaspecialists.performance.lab5.FibonacciTest" />
-      <option name="METHOD_NAME" value="testSimpleValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -487,14 +417,14 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration default="true" type="Application" factoryName="Application" editBeforeRun="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -596,18 +526,18 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration default="true" type="JUnit" factoryName="JUnit" editBeforeRun="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -682,22 +612,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Java2Demo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Java2Demo (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testSimpleValues" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciTest.testSimpleValues" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Java2Demo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Java2Demo (1)" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -725,7 +639,7 @@
       <workItem from="1461167008688" duration="258000" />
       <workItem from="1461167276054" duration="558000" />
       <workItem from="1461168510215" duration="156000" />
-      <workItem from="1461168673556" duration="1003000" />
+      <workItem from="1461168673556" duration="2125000" />
     </task>
     <task id="LOCAL-00001" summary="Got rid of Maven and did some rearranging of directories">
       <created>1461168912939</created>
@@ -763,11 +677,17 @@
       <option name="project" value="LOCAL" />
       <updated>1461169737653</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lab1 got rid of maven and reorganized directories">
+      <created>1461169787290</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1461169787290</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17535000" />
+    <option name="totallyTimeSpent" value="18657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -781,11 +701,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40621117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40621117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40869564" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3781337" sideWeight="0.17038217" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42111802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33910388" sideWeight="0.82961786" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -804,7 +725,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42111802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -828,7 +748,8 @@
     <MESSAGE value="Got rid of Maven and did some rearranging of directories" />
     <MESSAGE value="New lab that takes us through building a reserved caching scheme with ManagedBlocker and also parallelizing the work across all available cores using the Fork/Join framework" />
     <MESSAGE value="Added slides for new lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added slides for new lab" />
+    <MESSAGE value="Lab1 got rid of maven and reorganized directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab1 got rid of maven and reorganized directories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -915,13 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Symposium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1103,14 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1124,7 +1030,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
           <folding>
-            <element signature="e#0#21628#0" expanded="true" />
+            <element signature="e#0#21445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1169,16 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/FibonacciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab1/lab1.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1191,6 +1087,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Symposium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023166023">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Symposium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="34" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>

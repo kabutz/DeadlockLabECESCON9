@@ -6,10 +6,10 @@ import java.util.concurrent.*;
  * Our philosopher always first locks left, then right.  If all of the thinkers
  * sit in a circle and their threads call "drink()" at the same time, then they
  * will end up with a deadlock.
- * <p/>
+ * <p>
  * Instead of calling lock() on the two Krasi instances, we want to use
  * tryLock().  The idea is something like:
- * <p/>
+ * <p>
  * <pre>
  *     while(true) {
  *         try lock left
@@ -18,7 +18,7 @@ import java.util.concurrent.*;
  *           unlock left
  *     }
  * </pre>
- * <p/>
+ * <p>
  * Be careful to not cause a livelock.
  *
  * @author Heinz Kabutz
@@ -40,7 +40,7 @@ public class Thinker implements Callable<ThinkerStatus> {
             think();
         }
         return drinks == 1000 ? ThinkerStatus.HAPPY_THINKER :
-                ThinkerStatus.UNHAPPY_THINKER;
+            ThinkerStatus.UNHAPPY_THINKER;
     }
 
     public void drink() {

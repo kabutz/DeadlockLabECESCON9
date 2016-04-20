@@ -8,7 +8,7 @@ import java.util.concurrent.*;
  * Our philosopher always first locks left, then right.  If all of the thinkers
  * sit in a circle and their threads call "drink()" at the same time, then they
  * will end up with a deadlock.
- *
+ * <p>
  * In our solution, we decide in the constructor which the larger and smaller
  * locks are, rather than doing this every time the drink() method is called.
  *
@@ -31,7 +31,7 @@ public class Thinker implements Callable<ThinkerStatus> {
             think();
         }
         return drinks == 1000 ? ThinkerStatus.HAPPY_THINKER :
-                ThinkerStatus.UNHAPPY_THINKER;
+            ThinkerStatus.UNHAPPY_THINKER;
     }
 
     public void drink() {

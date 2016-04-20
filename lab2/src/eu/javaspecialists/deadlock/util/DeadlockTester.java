@@ -4,7 +4,7 @@ import java.lang.management.*;
 
 public class DeadlockTester {
     private final static ThreadMXBean tmb =
-            ManagementFactory.getThreadMXBean();
+        ManagementFactory.getThreadMXBean();
 
     /**
      * In this method we check whether any of the threads started in the
@@ -15,7 +15,7 @@ public class DeadlockTester {
      * @param runnable
      */
     public void checkThatCodeDoesNotDeadlock(Runnable runnable)
-            throws InterruptedException {
+        throws InterruptedException {
         ThreadGroup group = new ThreadGroup("testGroup");
         Thread runner = new Thread(group, runnable, "runner");
         runner.start();
@@ -40,7 +40,7 @@ public class DeadlockTester {
     }
 
     public void checkThatThreadTerminates(Thread thread)
-            throws InterruptedException {
+        throws InterruptedException {
         for (int i = 0; i < 2000; i++) {
             thread.join(50);
             if (!thread.isAlive()) return;

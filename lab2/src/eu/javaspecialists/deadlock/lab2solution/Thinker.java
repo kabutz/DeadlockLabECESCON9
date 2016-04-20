@@ -9,10 +9,10 @@ import java.util.concurrent.locks.*;
  * Our philosopher always first locks left, then right.  If all of the thinkers
  * sit in a circle and their threads call "drink()" at the same time, then they
  * will end up with a deadlock.
- * <p/>
+ * <p>
  * In our solution we did not add a random sleep, but you might need to do this
  * if you have a lot of conflicts.
- * <p/>
+ * <p>
  * A fun thing to try is to count how many times you had to back off when you
  * could not acquire a lock.
  *
@@ -35,7 +35,7 @@ public class Thinker implements Callable<ThinkerStatus> {
             think();
         }
         return drinks == 1000 ? ThinkerStatus.HAPPY_THINKER :
-                ThinkerStatus.UNHAPPY_THINKER;
+            ThinkerStatus.UNHAPPY_THINKER;
     }
 
     public void drink() {

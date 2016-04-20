@@ -6,7 +6,7 @@ import eu.javaspecialists.deadlock.util.*;
  * Launcher to test whether the symposium ends in a deadlock.  You might need
  * to
  * run it a few times on your machine before the deadlock surfaces.
- * <p/>
+ * <p>
  * DO NOT CHANGE THIS CODE!
  *
  * @author Henri Tremblay, Heinz Kabutz

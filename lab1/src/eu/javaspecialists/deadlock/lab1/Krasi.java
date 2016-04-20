@@ -4,7 +4,7 @@ package eu.javaspecialists.deadlock.lab1;
  * "Krasi" means wine in Greek, which is where the philosophers used to live
  * many thousands of years ago.  We use the Krasi objects as locks to
  * synchronize on.
- *
+ * <p>
  * In our exercise, we will try to define a global order on the Krasi objects,
  * to allow us to always lock in the same order.
  *

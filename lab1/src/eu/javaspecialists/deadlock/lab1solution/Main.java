@@ -6,7 +6,7 @@ import eu.javaspecialists.deadlock.util.*;
 /**
  * Launcher to test whether the symposium ends in a deadlock.  Hopefully the
  * deadlock has now disappeared.
- * <p/>
+ * <p>
  * DO NOT CHANGE THIS CODE!
  *
  * @author Henri Tremblay, Heinz Kabutz
