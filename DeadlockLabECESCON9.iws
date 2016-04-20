@@ -1,106 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db1df834-1e1f-4dc8-9edb-0f53c8f0c804" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/ACimages.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/ACimages.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/ACrules.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/ACrules.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/AllFonts.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/AllFonts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/AnimatingControlsSurface.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/AnimatingControlsSurface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/AnimatingSurface.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/AnimatingSurface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/Append.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/Append.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Arcs.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Arcs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Areas.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Areas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/AttributedStr.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/AttributedStr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/Balls.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/Balls.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/BezierAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/BezierAnim.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/BezierScroller.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/BezierScroller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BigDecimal.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BigDecimal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BigInteger.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BigInteger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BitSieve.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/BitSieve.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/BullsEye.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/BullsEye.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Caps.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Caps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/ClipAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/ClipAnim.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CloningFeature.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CloningFeature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/ColorConvert.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/ColorConvert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/ControlsSurface.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/ControlsSurface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/CurveQuadTo.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/CurveQuadTo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Curves.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Curves.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CustomControls.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CustomControls.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CustomControlsContext.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/CustomControlsContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Dash.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Dash.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DeadlockLabECESCON9.iws" afterPath="$PROJECT_DIR$/DeadlockLabECESCON9.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/util/DeadlockTester.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/util/DeadlockTester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/util/DeadlockTester.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/util/DeadlockTester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoFonts.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoFonts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoGroup.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoGroup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoImages.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoImages.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoPanel.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/DemoPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/DukeAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/DukeAnim.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Ellipses.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Arcs_Curves/Ellipses.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/FadeAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Composite/FadeAnim.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/Fibonacci.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/Fibonacci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/FibonacciTest.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/lab5/FibonacciTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/FillStroke.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/FillStroke.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/GlobalControls.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/GlobalControls.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/GlobalPanel.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/GlobalPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/GradAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/GradAnim.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/Gradient.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/Gradient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Greeter.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Greeter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Highlighting.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Highlighting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/ImageOps.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/ImageOps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Intersection.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Intersection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Intro.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Intro.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/JPEGFlip.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/JPEGFlip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/Java2Demo.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/Java2Demo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Java2DemoApplet.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Java2DemoApplet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Joins.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/Joins.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Krasi.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Krasi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Krasi.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Krasi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Krasi.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Krasi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Krasi.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Krasi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/LineAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Lines/LineAnim.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Main.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Main.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Main.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Main.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/MathContext.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/MathContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/MemoryMonitor.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/MemoryMonitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/util/MonitorUtils.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/util/MonitorUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/MutableBigInteger.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/MutableBigInteger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Outline.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Outline.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/PerformanceMonitor.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/PerformanceMonitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/Rotate.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/Rotate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/Rotator3D.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Colors/Rotator3D.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/RoundingMode.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/RoundingMode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/RunWindow.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/RunWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/SelectTx.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/SelectTx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/SignedMutableBigInteger.java" afterPath="$PROJECT_DIR$/lab5/src/eu/javaspecialists/performance/math/SignedMutableBigInteger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/Stars3D.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Mix/Stars3D.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Surface.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Surface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Symposium.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Symposium.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Symposium.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Symposium.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Symposium.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Symposium.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Symposium.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Symposium.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Text.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Clipping/Text.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/Texture.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/Texture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/TextureAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paint/TextureAnim.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/TextureChooser.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/TextureChooser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Thinker.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1/Thinker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Thinker.java" afterPath="$PROJECT_DIR$/lab1/src/eu/javaspecialists/deadlock/lab1solution/Thinker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Thinker.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2/Thinker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Thinker.java" afterPath="$PROJECT_DIR$/lab2/src/eu/javaspecialists/deadlock/lab2solution/Thinker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Tools.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/Tools.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/TransformAnim.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Transforms/TransformAnim.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Tree.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Fonts/Tree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/WarpImage.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Images/WarpImage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/WindingRule.java" afterPath="$PROJECT_DIR$/lab4/src/eu/javaspecialists/deadlock/lab4/java2d/demos/Paths/WindingRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab1/lab1.iml" afterPath="$PROJECT_DIR$/lab1/lab1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab2/lab2.iml" afterPath="$PROJECT_DIR$/lab2/lab2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab3/lab3.iml" afterPath="$PROJECT_DIR$/lab3/lab3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab4/lab4.iml" afterPath="$PROJECT_DIR$/lab4/lab4.iml" />
-    </list>
+    <list default="true" id="db1df834-1e1f-4dc8-9edb-0f53c8f0c804" name="Default" comment="" />
     <ignored path="DeadlockLabDevoxx2014.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/lab1/target/" />
@@ -639,7 +540,7 @@
       <workItem from="1461167008688" duration="258000" />
       <workItem from="1461167276054" duration="558000" />
       <workItem from="1461168510215" duration="156000" />
-      <workItem from="1461168673556" duration="2125000" />
+      <workItem from="1461168673556" duration="2169000" />
     </task>
     <task id="LOCAL-00001" summary="Got rid of Maven and did some rearranging of directories">
       <created>1461168912939</created>
@@ -683,11 +584,17 @@
       <option name="project" value="LOCAL" />
       <updated>1461169787290</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added .editorconfig and reformatted all the code to be 4 spaces for indent.">
+      <created>1461171131612</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1461171131612</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18657000" />
+    <option name="totallyTimeSpent" value="18701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -749,7 +656,8 @@
     <MESSAGE value="New lab that takes us through building a reserved caching scheme with ManagedBlocker and also parallelizing the work across all available cores using the Fork/Join framework" />
     <MESSAGE value="Added slides for new lab" />
     <MESSAGE value="Lab1 got rid of maven and reorganized directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab1 got rid of maven and reorganized directories" />
+    <MESSAGE value="Added .editorconfig and reformatted all the code to be 4 spaces for indent." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .editorconfig and reformatted all the code to be 4 spaces for indent." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
