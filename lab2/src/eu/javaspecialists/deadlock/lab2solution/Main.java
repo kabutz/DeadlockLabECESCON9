@@ -12,7 +12,7 @@ import eu.javaspecialists.deadlock.util.*;
  * @author Henri Tremblay, Heinz Kabutz
  */
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String... args) throws InterruptedException {
         Symposium symposium = new Symposium(5);
         ThinkerStatus status = symposium.run();
         if (status == ThinkerStatus.UNHAPPY_THINKER) {
